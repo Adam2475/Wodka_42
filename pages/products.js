@@ -9,9 +9,6 @@ export default function Home() {
     <>
       <div id="content">
         <Card class="product"/>
-        <Card class="product"/>
-        <Card class="product"/>
-        <Card class="product"/>
       </div>
 	  </>
   );

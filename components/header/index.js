@@ -5,20 +5,11 @@ export default function Header () {
   return (
     <div>
       <div id="main-navbar" className="navbar">
-        <h2 className="logo">Sand</h2>
+        <h2 className="logo"><a href='/'>MyEcommerce</a></h2>
         <nav>
           <ul>
             <li>
-              <a href="/home">Home</a>
-            </li>
-            <li>
-              <a href="/home">Home</a>
-            </li>
-            <li>
-              <a href="/home">Home</a>
-            </li>
-            <li>
-              <a href="/home">Home</a>
+              <a href="/products">Products</a>
             </li>
           </ul>
         </nav>
