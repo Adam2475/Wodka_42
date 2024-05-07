@@ -1,36 +1,21 @@
-"use client";
-
-import { Sidebar } from "flowbite-react";
-import { HiArrowSmRight, HiChartPie, HiInbox, HiShoppingBag, HiTable, HiUser, HiViewBoards } from "react-icons/hi";
-
-export function Component() {
+import Layout from '../layout'
+import Image from 'next/image';
+ 
+export default function Page() {
   return (
-    <Sidebar aria-label="Default sidebar example">
-      <Sidebar.Items>
-        <Sidebar.ItemGroup>
-          <Sidebar.Item href="#" icon={HiChartPie}>
-            Dashboard
-          </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiViewBoards} label="Pro" labelColor="dark">
-            Kanban
-          </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiInbox} label="3">
-            Inbox
-          </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiUser}>
-            Users
-          </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiShoppingBag}>
-            Products
-          </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiArrowSmRight}>
-            Sign In
-          </Sidebar.Item>
-          <Sidebar.Item href="#" icon={HiTable}>
-            Sign Up
-          </Sidebar.Item>
-        </Sidebar.ItemGroup>
-      </Sidebar.Items>
-    </Sidebar>
-  );
+	<>
+    <div class="banner">
+        <Image
+			src = "/banner.jpeg"
+		    width = {200}
+		    height = {100}
+		    alt = "picture"
+            class = "banner-image"
+		/>
+        <div class="banner-desc">
+            <a>why are you seing this ad?</a>
+        </div>
+    </div>
+    </>
+  )
 }

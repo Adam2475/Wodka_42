@@ -7,7 +7,11 @@ import Card from '/components/cards/card.js'
 export default function Home() {
   return (
     <>
-      <div id="content">
+      <div id="lista-personaggi">
+        <Card class="product"/>
+        <Card class="product"/>
+        <Card class="product"/>
+        <Card class="product"/>
         <Card class="product"/>
         <Card class="product"/>
         <Card class="product"/>
