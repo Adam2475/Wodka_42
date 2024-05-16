@@ -7,8 +7,9 @@ import Card from '/components/cards/card.js'
 export default function Home() {
   return (
     <>
+    {/* banner */}
       <div id="lista-personaggi">
-        <Card class="product"/>
+        <a href="products.js"><Card class="product"/></a>
         <Card class="product"/>
         <Card class="product"/>
         <Card class="product"/>
@@ -20,3 +21,9 @@ export default function Home() {
 	  </>
   );
 }
+
+//const episodedata = await fetchGraphql
+
+//le static props devono essere
+//rebuildate per cambiare valore
+// a divverenza delle server side props

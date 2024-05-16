@@ -189,7 +189,7 @@ hr {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  margin-right: 30%;
+  /* margin-right: 30%; */
   /* margin-top: 20px; */
 }
 

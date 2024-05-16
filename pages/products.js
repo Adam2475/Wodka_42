@@ -8,7 +8,8 @@ export default function Home() {
   return (
     <>
       <div id="content">
-        <Card class="product"/>
+        {/* <Card class="product"/> 
+        // character page*/}
       </div>
 	  </>
   );

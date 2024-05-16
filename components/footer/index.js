@@ -30,3 +30,5 @@ export default function Page() {
     </footer>
   )
 }
+
+// react query con funct
