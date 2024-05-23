@@ -3,8 +3,8 @@ import Image from 'next/image';
  
 export default function Page() {
   return (
-	<div class="card">
-			<div class="image">
+	<div className="card">
+			<div className="image">
 				<Image
 					src = "/KrootArt1.png"
 					width = {500}
@@ -14,15 +14,15 @@ export default function Page() {
 			</div>
 			<div class="card-content">
 				<h3> Adam </h3>
-				<p class="description"> brief description </p>
-				<p class="tag"> 42 Firenze </p>
-				<div class="icons">
-					<i class="fas fa-cat"></i>
-					<i class="far fa-clock"></i>
-					<i class="fas fa-dragon"></i>
-					<i class="fas fa-user"></i>
+				<p className="description"> brief description </p>
+				<p className="tag"> 42 Firenze </p>
+				<div className="icons">
+					<i className="fas fa-cat"></i>
+					<i className="far fa-clock"></i>
+					<i className="fas fa-dragon"></i>
+					<i className="fas fa-user"></i>
 				</div>
-			<div class="bottom">
+			<div className="bottom">
 				<p>hello from the bottom</p>
 			</div>
 		</div>
