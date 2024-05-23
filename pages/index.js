@@ -28,7 +28,8 @@ export const getServerSideProps = (async () => {
 })
 
 export default function Home( { repo } ) {
-	const characterCount = repo
+	const characterCount = repo.name
+	const imgSrc = repo.image
 	console.log("character number", characterCount);
 	return (
 	<>
@@ -37,7 +38,31 @@ export default function Home( { repo } ) {
 		{/* <a href="products.js"><Card class="product"/></a> */}
 
 			{/* <p>{repo.characters.results.name}</p> */}
+			<div className="card">
+			<div className="image">
+				<Image
+					src = {imgSrc}
+					width = {500}
+					height = {500}
+					alt = "picture"
+				/>
+			</div>
+			<div class="card-content">
+				<h3> Adam </h3>
+				<p className="description"> brief description </p>
+				<p className="tag"> 42 Firenze </p>
+				<div className="icons">
+					<i className="fas fa-cat"></i>
+					<i className="far fa-clock"></i>
+					<i className="fas fa-dragon"></i>
+					<i className="fas fa-user"></i>
+				</div>
+			<div className="bottom">
+				<p>hello from the bottom</p>
+			</div>
+		</div>
 
+	</div>
 
 		</div>
 	</>
